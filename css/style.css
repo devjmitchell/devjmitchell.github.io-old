@@ -1,0 +1,27 @@
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: lightgray;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.container {
+    /* background-color: aqua; */
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+.first-name {
+    color: #f00;
+}
+
+.last-name {
+    color: #fff;
+}
