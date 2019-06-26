@@ -25,3 +25,14 @@ p {
 .last-name {
     color: #fff;
 }
+
+.social-links a {
+    font-size: 25px;
+    padding: 0px 8px;
+    text-decoration: none;
+    color: #444;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
