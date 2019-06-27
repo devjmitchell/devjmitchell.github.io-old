@@ -1,11 +1,27 @@
 body {
-    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #ddd;
     background-color: #222;
 }
 
-header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  letter-spacing: 1px;
+  color: #f00;
+}
+
+header, footer {
     text-align: center;
+}
+
+header h2 {
+    font-weight: lighter;
+    color: #ddd;
 }
 
 p {
@@ -13,7 +29,6 @@ p {
 }
 
 .container {
-    /* background-color: aqua; */
     max-width: 800px;
     margin: 60px auto;
 }
@@ -30,9 +45,17 @@ p {
     font-size: 25px;
     padding: 0px 8px;
     text-decoration: none;
-    color: #444;
+    color: #666;
 }
 
 .no-bullet {
     list-style-type: none;
+}
+
+a {
+    color: #fff;
+}
+
+a:focus, a:hover {
+    color: #f00;
 }
